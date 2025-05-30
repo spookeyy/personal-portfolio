@@ -112,7 +112,8 @@ export default function MeshackPortfolio() {
     setSubmitStatus("idle");
 
     try {
-      const response = await fetch("/api/contact-resend", {
+      const response = await fetch("/api/contact-resend", { // using resend for auto replies
+        // const response = await fetch("/api/contact", {  //using gmail for auto replies and sending emails
         method: "POST",
         headers: {
           "Content-Type": "application/json",
