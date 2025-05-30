@@ -70,4 +70,4 @@ When deploying to Vercel:
 2. Deploy your project
 3. Test the contact form functionality
 
-The contact form will automatically send emails to `pangasmeshack@gmail.com` and send auto-replies to users.
+The contact form will automatically send emails to `your-gmail` and send auto-replies to users.
