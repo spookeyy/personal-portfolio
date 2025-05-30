@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: "Portfolio Contact <pangasmeshack@gmail.com>", // Use your verified domain
+      from: "Portfolio Contact <mkataboi@marps.co.ke>", // Use your verified domain
       to: ["pangasmeshack@gmail.com"],
       subject: `New Portfolio Contact: ${name}`,
       html: `
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
 
     // Send auto-reply to the user
     const autoReply = await resend.emails.send({
-      from: "Meshack Kataboi <pangasmeshack@gmail.com>", // Use same Gmail address
+      from: "Meshack Kataboi <mkataboi@marps.co.ke>", // Use same verified domain address
       to: [email],
       subject: "Thank you for contacting me!",
       html: `

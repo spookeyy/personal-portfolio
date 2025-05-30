@@ -112,7 +112,7 @@ export default function MeshackPortfolio() {
     setSubmitStatus("idle");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/api/contact-resend", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -418,7 +418,7 @@ export default function MeshackPortfolio() {
                   onClick={() => scrollToSection("contact")}
                   variant="outline"
                   size="lg"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8"
+                  className="border-slate-600 text-slate-700 hover:bg-slate-800 hover:text-white px-8"
                 >
                   Get In Touch
                 </Button>
@@ -975,24 +975,6 @@ export default function MeshackPortfolio() {
                       />
                     </div>
 
-                    {submitStatus === "success" && (
-                      <div className="p-4 bg-green-500/20 border border-green-500/30 rounded-lg">
-                        {/* <p className="text-green-400 text-sm">
-                          ✅ Message sent successfully! I'll get back to you
-                          soon.
-                        </p> */}
-                      </div>
-                    )}
-
-                    {submitStatus === "error" && (
-                      <div className="p-4 bg-red-500/20 border border-red-500/30 rounded-lg">
-                        <p className="text-red-400 text-sm">
-                          ❌ Failed to send message. Please try again or contact
-                          me directly.
-                        </p>
-                      </div>
-                    )}
-
                     <Button
                       type="submit"
                       disabled={isSubmitting}
@@ -1023,7 +1005,7 @@ export default function MeshackPortfolio() {
         <div className="container mx-auto px-6 text-center">
           <p className="text-slate-400">
             Copyright © Meshack. <Code2 className="inline w-4 h-4 mx-1" />{" "}
-            Software Developer
+            Software Engineer
           </p>
         </div>
       </footer>
