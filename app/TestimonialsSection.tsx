@@ -68,7 +68,7 @@ export default function TestimonialsSection() {
           <p className="text-slate-400 mb-2 uppercase tracking-wide text-sm">
             Happy Clients & Trusted by Colleagues
           </p>
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-white">
+          <h2 className="text-4xl font-bold md:text-4xl mb-4 text-white">
             What Clients and Colleagues Say about Me
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
