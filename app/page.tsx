@@ -299,7 +299,7 @@ export default function MeshackPortfolio() {
       <MyProjects />
 
       {/* Testimonials Section */}
-      <TestimonialsSection orientation="horizontal" /> {/* or "vertical" */}
+      <TestimonialsSection /> {/* or "vertical" */}
 
       {/* Achievements Section */}
       <Achievements />
