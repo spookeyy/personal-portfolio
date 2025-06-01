@@ -70,7 +70,8 @@ export default function MyProjects() {
       title: "Security Camera Program",
       description:
         "This program detects any motion in front of the camera and alerts using beep sounds when a movement is detected. You can get the full source code on my github.",
-      image: "/placeholder.svg?height=300&width=500",
+      // image: "/SecurityCamera.png?height=300&width=500",
+      image: "/securitycam.png?height=300&width=500",
       liveUrl: "#",
       githubUrl: "https://github.com/spookeyy/security-cam-python",
       tags: ["Python", "Computer Vision", "Motion Detection", "Security"],
