@@ -1,3 +1,50 @@
+  // Animation variants for the Rubik's cube
+  const cubeVariants = {
+    twistTop: {
+      rotateX: 90,
+      transition: { duration: 1 },
+    },
+    twistRight: {
+      rotateY: 90,
+      transition: { duration: 1 },
+    },
+    twistBottom: {
+      rotateX: -90,
+      transition: { duration: 1 },
+    },
+    twistLeft: {
+      rotateY: -90,
+      transition: { duration: 1 },
+    },
+    initial: {
+      rotateX: 0,
+      rotateY: 0,
+      transition: { duration: 1 },
+    },
+  };
+
+  const [cubeAnimation, setCubeAnimation] = useState("initial");
+
+  useEffect(() => {
+    // Sequence of cube rotations
+    const sequence = [
+      "twistTop",
+      "twistRight",
+      "twistBottom",
+      "twistLeft",
+      "initial",
+    ];
+
+    let currentIndex = 0;
+
+    const interval = setInterval(() => {
+      setCubeAnimation(sequence[currentIndex]);
+      currentIndex = (currentIndex + 1) % sequence.length;
+    }, 2000); // Change animation every 2 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
 <motion.div
         className="fixed top-8 right-8 z-50 w-48 h-48"
         variants={cubeVariants}
