@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -52,6 +52,8 @@ const config: Config = {
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",
         "slide-up": "slideUp 0.5s ease-out",
+        scroll: "scroll 60s linear infinite",
+        "scroll-y": "scrollY 60s linear infinite",
       },
       keyframes: {
         fadeIn: {
@@ -62,9 +64,18 @@ const config: Config = {
           "0%": { transform: "translateY(20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        scrollY: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-50%)" },
+        },
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+
+export default config;
