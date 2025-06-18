@@ -255,7 +255,7 @@ export default function MeshackPortfolio() {
               </h1>
 
               <p className="text-xl md:text-2xl text-slate-300 mb-4">
-                Software Engineer / Full Stack Developer
+                Software Engineer
               </p>
 
               <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
