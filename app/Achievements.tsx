@@ -15,7 +15,7 @@ export default function Achievements(){
       //     "Demonstrated ability to develop and maintain AWS applications.",
       // },
       {
-        title: "4th Place - PLP Hackathon",
+        title: "5th Place - PLP Hackathon",
         issuer: "Sheria360 Project",
         date: "2024",
         description:
@@ -28,13 +28,13 @@ export default function Achievements(){
         description:
           "Completed the Kubernetes and Cloud Native Associate certification.",
       },
-      {
-        title: "Best Final Year Project",
-        issuer: "Zetech University",
-        date: "2023",
-        description:
-          "Awarded for innovative school management system using React and Flask.",
-      },
+      // {
+      //   title: "Best Final Year Project",
+      //   issuer: "Zetech University",
+      //   date: "2023",
+      //   description:
+      //     "Awarded for innovative school management system using React and Flask.",
+      // },
     ];
     
     return (
