@@ -29,6 +29,27 @@ export default function MyProjects() {
       featured: true,
     },
     {
+      title: "WaterMate - Water Delivery SaaS Web App",
+      description:
+        "Built a full-stack SaaS platform to connect water vendors and customers with real-time order tracking, subscription management (trial, basic, premier), and secure M-Pesa integration. Supports roles for Admins, Shops, and Clients with detailed analytics and order workflows.",
+      image: "/watermate-web-app.png?height=300&width=500",
+      liveUrl: "https://watermateweb.netlify.app/",
+      githubUrl: "https://github.com/spookeyy/WaterMate-WebApp/",
+      tags: [
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Real-time Tracking",
+        "Google Maps API",
+        "API Integration",
+        "SaaS",
+        "PostgreSQL",
+        "Golang",
+        "M-Pesa Integration",
+      ],
+      featured: true,
+    },
+    {
       title: "School Management System",
       description:
         "This web app lets you manage various activities of a school, majorly educational and also a Parent Mobile App. You can view the web app by clicking on the icon below.",
