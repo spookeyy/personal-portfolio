@@ -259,7 +259,7 @@ export default function MeshackPortfolio() {
               </p>
 
               <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-                A passionate Full Stack Developer crafting digital experiences
+                A Software Engineer with a passion for crafting digital experiences
                 with modern technologies and creative solutions.
               </p>
 
