@@ -109,9 +109,9 @@ export default function AboutMe(){
                           Backend Development
                         </h4>
                         <p className="text-slate-300 text-sm">
-                          Experienced in building robust backend systems with
-                          Go (Gin), Python (Flask), and Node.js, designing RESTful APIs,
-                          and optimizing database performance.
+                          Experienced in building robust backend systems with Go
+                          (Gin), Python (Flask), and Node.js, designing RESTful
+                          APIs, and optimizing database performance.
                         </p>
                       </div>
                     </div>
@@ -124,7 +124,7 @@ export default function AboutMe(){
                         Nov 2024 to Jan 2025
                       </div>
                       <h4 className="text-white font-medium mb-2">
-                        Software Developer Intern - Britam Holdings PLC
+                        Software Engineer Intern - Britam Holdings PLC
                       </h4>
                       <p className="text-slate-300 text-sm">
                         Developed a WhatsApp chatbot that improved agent
@@ -140,7 +140,7 @@ export default function AboutMe(){
                         Jul 2024 to Nov 2024
                       </div>
                       <h4 className="text-white font-medium mb-2">
-                        Full Stack Developer - ParcelPoa
+                        Software Engineer - ParcelPoa
                       </h4>
                       <p className="text-slate-300 text-sm">
                         Led development of a delivery system using React, with
@@ -191,13 +191,22 @@ export default function AboutMe(){
                     <div className="p-4 bg-slate-800/30 rounded-lg border border-slate-700/50">
                       <div className="flex items-center text-blue-400 font-semibold mb-2">
                         <GraduationCap className="w-4 h-4 mr-2" />
+                        May 2025 to June 2025
+                      </div>
+                      <p className="text-slate-300 text-sm">
+                        Professional Certification in Kubernetes and Cloud Native Associate (KCNA) by Linux Foundation
+                      </p>
+                    </div>
+                    {/* <div className="p-4 bg-slate-800/30 rounded-lg border border-slate-700/50">
+                      <div className="flex items-center text-blue-400 font-semibold mb-2">
+                        <GraduationCap className="w-4 h-4 mr-2" />
                         Jan 2022 to Nov 2023
                       </div>
                       <p className="text-slate-300 text-sm">
                         Higher Diploma in Software Engineering at Zetech
                         University (GPA: 3.72/4.00)
                       </p>
-                    </div>
+                    </div> */}
                   </TabsContent>
                 </Tabs>
               </div>
