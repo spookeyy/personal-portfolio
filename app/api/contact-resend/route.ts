@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
           
           <p>Best regards,<br>
           <strong>Meshack Kataboi</strong><br>
-          Full Stack Developer</p>
+          Software Engineer</p>
           
           <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; margin-top: 30px;">
             <p style="color: #64748b; font-size: 14px;">
