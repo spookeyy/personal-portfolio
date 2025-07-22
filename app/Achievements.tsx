@@ -7,26 +7,19 @@ import { motion } from "framer-motion";
 export default function Achievements(){
 
     const achievements = [
-      // {
-      //   title: "AWS Certified Developer",
-      //   issuer: "Amazon Web Services",
-      //   date: "2024",
-      //   description:
-      //     "Demonstrated ability to develop and maintain AWS applications.",
-      // },
+      {
+        title: "Certified Kubernetes and Cloud Native Associate(KCNA)",
+        issuer: "The Linux Foundation + Andela",
+        date: "2025",
+        description:
+          "Learned and gained technical skills in Kubernetes and Cloud Native. Completed the Kubernetes and Cloud Native Associate certification.",
+      },
       {
         title: "5th Place - PLP Hackathon",
         issuer: "Sheria360 Project",
         date: "2024",
         description:
-          "Received a prize for developing a legal tech solution with React and Python.",
-      },
-      {
-        title: "Kubernetes and Cloud Native Associate", // KCNA
-        issuer: "Linux Foundation + Andela",
-        date: "2025",
-        description:
-          "Completed the Kubernetes and Cloud Native Associate certification.",
+          "Received a recognition for developing a legal tech solution with React and Python.",
       },
       // {
       //   title: "Best Final Year Project",

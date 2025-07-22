@@ -241,7 +241,7 @@ export default function MeshackPortfolio() {
               transition={{ duration: 0.8 }}
             >
               <div className="inline-flex items-center px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full mb-6">
-                <Star className="w-4 h-4 text-blue-400 mr-2" />
+                {/* <Star className="w-4 h-4 text-blue-400 mr-2" /> */}
                 <span className="text-blue-300 text-sm">
                   Available for new opportunities
                 </span>

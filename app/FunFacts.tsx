@@ -18,10 +18,10 @@ export default function MyFunFacts(){
               Beyond Code, A Glimpse Into My World
             </h2>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+            <div className="grid grid-cols-3 md:grid-cols-3 gap-6 mb-8">
               {[
                 { icon: "🧩", label: "Puzzle Solver" },
-                { icon: "♟️", label: "Chess Enthusiast" },
+                // { icon: "♟️", label: "Chess Enthusiast" },
                 { icon: "🌍", label: "Travel Lover" },
                 { icon: "📚", label: "Book Worm" },
               ].map((item, index) => (
@@ -39,7 +39,7 @@ export default function MyFunFacts(){
             <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
               When I'm not coding, you'll find me exploring new technologies,
               contributing to open source, or solving Rubik's cubes (my personal
-              best is under 2 minutes!).
+              best is under ___ minutes! Well, We can always find out...).
             </p>
 
             <Button variant="outline" asChild>
