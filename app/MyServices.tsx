@@ -41,7 +41,7 @@ export default function MyServices() {
       icon: <Cpu className="w-8 h-8" />,
       title: "Backend Development",
       description:
-        "Robust backend systems built with Go, Spring Boot, and Node.js. I design scalable, secure architectures with proper authentication, database optimization, and efficient APIs.",
+        "Robust backend systems built with Golang and Python. I design scalable, secure architectures with proper authentication, database optimization, and efficient APIs.",
       features: [
         "Go (Golang) Services",
         "Python (Flask) Services",
@@ -70,7 +70,8 @@ export default function MyServices() {
       features: [
         "Docker Containerization",
         "Git & GitHub Workflows",
-        "Azure DevOps Pipelines",
+        "Jenkins Pipelines",
+        // "Azure DevOps Pipelines",
         "Agile Development",
       ],
     },
