@@ -28,7 +28,8 @@ export default function AboutMe(){
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-2xl blur-xl"></div>
                 <img
-                  src="/meshack01.jpg?height=600&width=500"
+                  // src="/meshack01.jpg?height=600&width=500"
+                  src="/Siscom.jpeg?height=600&width=500"
                   alt="Meshack"
                   className="relative rounded-2xl shadow-2xl border border-slate-700/50 w-full"
                 />
